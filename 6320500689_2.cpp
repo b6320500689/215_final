@@ -4,24 +4,24 @@ int main ()
 	int n,i,max=0,j=0,k;
 	scanf ("%d",&n);
 	int a[n];
-	int l[1001]={0};
+	int b[1001]={0};
 	if (n>= 2 && n<= 1000)
 	{
 		for (i=0; i<n; i++)
 		{
 			scanf ("%d",&k);
-			l[k]++;
+			b[k]++;
 		}
 		for (i=1; i<=1000; i++)
 		{
-			if (max<=l[i])
+			if (max<=b[i])
 			{
-				if (l[i]>0)
+				if (b[i]>0)
 				{
 					a[j]=i;
 					j++;
 				}
-			max=l[i];
+			max=b[i];
 			}
 			
 		}	
