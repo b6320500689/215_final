@@ -17,16 +17,14 @@ int main ()
 		{
 			if (max<=b[i])
 			{
-				{
 					max=b[i];
-				}
-			
+		
 			}
 		}
 		
 		for (i=1; i<=1000; i++)
 		{
-			if (a[i]==max)
+			if (b[i]==max)
 			{
 				a[j]=i;
 				j++;
