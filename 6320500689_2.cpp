@@ -12,6 +12,7 @@ int main ()
 			scanf ("%d",&k);
 			b[k]++;
 		}
+		
 		for (i=1; i<=1000; i++)
 		{
 			if (max<=b[i])
@@ -25,6 +26,7 @@ int main ()
 			}
 			
 		}	
+		
 		for (i=0; i<j; i++)
 		printf ("%d ",a[i]);
 	}
