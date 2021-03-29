@@ -20,9 +20,6 @@ int main ()
 			}
 		}
 	}
-	if (max > a[1])
-		printf ("%d",j+1);
-	else
 		printf ("%d %d",j+1,max);
 	return 0;
 	
