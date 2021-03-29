@@ -26,8 +26,12 @@ int main ()
 		
 		for (i=1; i<=1000; i++)
 		{
-			a[j]=i;
-			j++;
+			if (a[i]==max)
+			{
+				a[j]=i;
+				j++;
+			}
+			
 		}	
 		
 		for (i=0; i<j; i++)
