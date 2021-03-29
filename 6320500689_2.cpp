@@ -30,9 +30,7 @@ int main ()
 			}
 		}
 	}
-	if (a[j] = max)
-		printf ("%d",l);
-	else
+	if (a[j] < a[i])
 		printf ("%d %d",l,max);
 	return 0;
 	
