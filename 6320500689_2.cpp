@@ -30,9 +30,9 @@ int main ()
 			}
 		}
 	}
-	if (l <= 1)
-		printf ("%d",max);
-	else 
+	if (a[j] = max)
+		printf ("%d",l);
+	else
 		printf ("%d %d",l,max);
 	return 0;
 	
